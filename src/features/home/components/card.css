@@ -1,0 +1,29 @@
+.main-card-column {
+    overflow: visible;
+}
+
+.main-card-column .package-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+
+.package-svg path {
+    transition: fill 200ms ease;
+}
+
+
+.main-card-column:hover .package-svg path {
+    fill: #E63030;
+/* color: #E63030; */
+}
+
+.main-card-column:hover .offer {
+color: #fff;
+}
+
+
