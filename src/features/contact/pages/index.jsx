@@ -189,7 +189,7 @@ export default function ContactPage() {
           }}
         >
           <div style={{ maxWidth: "300" }}>
-      <img src="public/contact.png" height="auto" width="90%"></img>
+      <img src="/contact.png" height="auto" width="90%"></img>
           </div>
     
         </div>

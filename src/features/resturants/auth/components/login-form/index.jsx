@@ -62,7 +62,7 @@ export function ResturantLoginForm() {
                 {/* Image Section */}
                 <div className="login-image-section">
                     <img
-                        src="../public/images/auth.png"
+                        src="/illustration.png"
                         alt="Shopping"
                         className="login-image"
                     />

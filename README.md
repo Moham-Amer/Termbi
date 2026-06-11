@@ -1,16 +1,33 @@
-# React + Vite
+# Termbi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A restaurant marketplace I built as my internship capstone at IXCoders in Damascus (Oct 2025 – Jan 2026). The idea: restaurants get their own store on the platform and sell their products through it, and customers browse, order, and book tables.
 
-Currently, two official plugins are available:
+**Live demo:** https://termbi-seven.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What it does
 
-## React Compiler
+- Sign up / login with validated forms and protected routes — restaurants have their own separate auth flow and dashboard pages
+- Browse restaurants and their product listings
+- Cart and checkout flow
+- Table reservations with date pickers
+- Live search over the API
+- User profile page, plus a contact form with toast feedback
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How it's built
 
-## Expanding the ESLint configuration
+React 19 + Vite, feature-first folders — each domain (`auth`, `cart`, `resturants`, `search`, `profile`, `contact`, `home`) owns its own components, pages, routes, services, and store.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Zustand** for client state (cart, user)
+- **TanStack React Query + Axios** for server state and caching
+- **react-hook-form + Yup** for all the forms
+- **MUI** for the UI, including MUI X Date Pickers for the reservation flow
+- **react-toastify** for feedback messages
+
+## Run it locally
+
+```bash
+yarn install
+yarn dev
+```
+
+`yarn build` for a production build, `yarn lint` for ESLint.

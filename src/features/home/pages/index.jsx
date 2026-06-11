@@ -185,19 +185,19 @@ export function HomePage() {
                         }}
                     >
 
-                        <img src="public/Resturants/rest1.png" height="150" style={{
+                        <img src="/Resturants/rest1.png" height="150" style={{
                             paddingTop: 10
                         }} />
-                        <img src="public/Resturants/rest2.png" height="150" style={{
+                        <img src="/Resturants/rest2.png" height="150" style={{
                             paddingTop: 10
                         }} />
-                        <img src="public/Resturants/rest3.png" height="150" style={{
+                        <img src="/Resturants/rest3.png" height="150" style={{
                             paddingTop: 10
                         }} />
-                        <img src="public/Resturants/rest4.png" height="150" style={{
+                        <img src="/Resturants/rest4.png" height="150" style={{
                             paddingTop: 10
                         }} />
-                        <img src="public/Resturants/rest5.png" height="150" style={{
+                        <img src="/Resturants/rest5.png" height="150" style={{
                             paddingTop: 10
                         }} />
 
@@ -321,7 +321,7 @@ export function HomePage() {
 
 
                         <Box sx={{ maxWidth: "300" }}>
-                            <img src="public/dashboard.png" height="auto" width="90%"></img>
+                            <img src="/dashboard.png" height="auto" width="90%"></img>
                         </Box>
 
 

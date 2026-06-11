@@ -122,7 +122,7 @@ function CardFeature({ text, children }) {
             alignItems: "center",
             gap: "15px"
         }}>
-            <img src='public/check.png' alt="check" />
+            <img src='/check.png' alt="check" />
             <Typography gutterBottom component="div">
                 {content}
             </Typography>

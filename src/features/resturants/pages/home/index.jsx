@@ -122,7 +122,7 @@ export function ResturantHomePage() {
                             textDecoration: 'underline',
                         }}
                     >
-                        <img src='location.png' height='25px' style={{
+                        <img src='/location.png' height='25px' style={{
                             marginRight: '15px',
                         }}>
                         </img>
@@ -139,7 +139,7 @@ export function ResturantHomePage() {
                         }}
                     >
                         Rating:
-                        <img src='rating.png' height='25px' style={{
+                        <img src='/rating.png' height='25px' style={{
                             marginRight: '15px',
                         }}>
                         </img>
@@ -334,7 +334,7 @@ export function ResturantHomePage() {
                                     {item.price}$
                                 </Typography>
                                 <IconButton size="small" sx={{ color: theme.palette.primary.main }}>
-                                    <img src='/public/cart.png' height='20px' alt="cart" />
+                                    <img src='/cart.png' height='20px' alt="cart" />
                                 </IconButton>
                             </Box>
                         </Box>

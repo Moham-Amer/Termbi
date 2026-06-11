@@ -312,7 +312,7 @@ export function ResturantSignUpForm() {
                         }}
                     >
                         <img
-                            src="auth/registerLogo.png"
+                            src="/auth/registerLogo.png"
                             alt="Shopping"
                             style={{
                                 width: "40%",
