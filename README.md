@@ -4,6 +4,8 @@ A restaurant marketplace I built as my internship capstone at IXCoders in Damasc
 
 **Live demo:** https://termbi-seven.vercel.app
 
+![Termbi home page](./screenshot.png)
+
 ## What it does
 
 - Sign up / login with validated forms and protected routes — restaurants have their own separate auth flow and dashboard pages
