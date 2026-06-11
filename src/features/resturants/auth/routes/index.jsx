@@ -1,5 +1,5 @@
 import { lazy } from "react"
-import { LayoutContainer } from "../../../components/shared/layout/layout-container";
+import { LayoutContainer } from "../../../../components/shared/layout/layout-container";
 // import { DefaultLayout } from '../../../shared/layout/default-layout';
 
 const ResturantSignUpPage = lazy(() => import('../pages/sign-up'));

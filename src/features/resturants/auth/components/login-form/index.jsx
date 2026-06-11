@@ -1,12 +1,12 @@
 import { useForm } from 'react-hook-form';
-import { FormInput } from '../../../../shared/components/forms/form-input';
+import { FormInput } from '../../../../../shared/components/forms/form-input';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { loginFormSchemaValidation } from './config';
 import { useLoginMutation } from '../../services/mutations';
 import './style.css';
 import { toast } from 'react-toastify';
 import { useLocation, useNavigate } from "react-router-dom";
-import { appRoutes } from '../../../../routes'
+import { appRoutes } from '../../../../../routes'
 import omit from 'lodash/omit';
 import { userStorage } from '../../storage';
 
