@@ -2,7 +2,7 @@
 
 A restaurant marketplace I built as my internship capstone at IXCoders in Damascus (Oct 2025 – Jan 2026). The idea: restaurants get their own store on the platform and sell their products through it, and customers browse, order, and book tables.
 
-**Live demo:** https://termbi-seven.vercel.app
+**Live demo:** https://termbi-app.vercel.app
 
 ![Termbi home page](./screenshot.png)
 
